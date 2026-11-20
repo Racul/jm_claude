@@ -1,6 +1,6 @@
 ---
 name: result
-description: Stage 5. Write docs/result.md with the final result, reproduce command, and limitations. Use after all subgoals in progress_record.md are done.
+description: Stage 5. Write docs/5_result.md with the final result, reproduce command, and limitations. Use after all subgoals in 4_progress_record.md are done.
 ---
 
 # Result
@@ -9,14 +9,14 @@ description: Stage 5. Write docs/result.md with the final result, reproduce comm
 State the final outcome clearly. A grader reads only this file and understands what was achieved.
 
 ## Rules
-- Only final results here. Minor trial and error stays in progress_record.md.
+- Only final results here. Minor trial and error stays in 4_progress_record.md.
 - Every claim has a number or evidence (metric, test output, file path).
 - Run the full pipeline from scratch once and confirm it works before writing.
 
 ## Steps
-1. Check all items in progress_record.md checklist are `[v]`.
+1. Check all items in 4_progress_record.md checklist are `[v]`.
 2. Run the full pipeline from scratch with one command. Confirm all tests pass.
-3. Write `docs/result.md` (in Korean).
+3. Write `docs/5_result.md` (in Korean).
 
 ## Template
 ```markdown
@@ -27,10 +27,10 @@ State the final outcome clearly. A grader reads only this file and understands w
 - 평가 지표 값
 
 ## 2. 핵심 과정 요약
-- 3~5줄. 상세는 progress_record.md 참조
+- 3~5줄. 상세는 4_progress_record.md 참조
 
-## 3. 데이터 함정과 처리
-- data_audit.md 의 함정 목록 요약 (함정 → 처리 → 효과)
+## 3. 데이터 오류와 처리
+- 3_data_audit.md 의 오류 목록 요약 (오류 → 처리 → 효과)
 
 ## 4. 재현 방법
 - 실행 명령어 한 줄

@@ -1,6 +1,6 @@
 ---
 name: plan
-description: Stage 2. Write docs/plan.md (subgoals with tests) and create docs/progress_record.md checklist. Use after prob_describe.md is done, before any execution.
+description: Stage 2. Write docs/2_plan.md (subgoals with tests) and create docs/4_progress_record.md checklist. Use after 1_prob_describe.md is done, before any execution.
 ---
 
 # Plan
@@ -9,23 +9,23 @@ description: Stage 2. Write docs/plan.md (subgoals with tests) and create docs/p
 Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 
 ## Rules
-- Write plan.md before any execution. After writing, plan.md is frozen. Never edit it.
-- Results and changes go to progress_record.md or result.md, never plan.md.
+- Write 2_plan.md before any execution. After writing, 2_plan.md is frozen. Never edit it.
+- Results and changes go to 4_progress_record.md or 5_result.md, never 2_plan.md.
 - The first subgoal is always the data audit (see `skills/data-audit`).
 - Every subgoal must have a test that proves it works.
 
 ## Steps
-1. Read `docs/prob_describe.md`.
-2. Write `docs/plan.md` with the template below (in Korean).
+1. Read `docs/1_prob_describe.md`.
+2. Write `docs/2_plan.md` with the template below (in Korean).
 3. Write unit tests as files (e.g. `tests/test_data.py`, `tests/test_<subgoal>.py`) or as clear check commands.
-4. Create `docs/progress_record.md` with the task checklist (see `skills/progress-record`).
+4. Create `docs/4_progress_record.md` with the task checklist (see `skills/progress-record`).
 
 ## Template
 ```markdown
 # 진행 계획
 
 ## 최종 목표
-- prob_describe.md 의 목표와 성공 기준
+- 1_prob_describe.md 의 목표와 성공 기준
 
 ## Subgoals
 ### 1. 데이터 무결성 검증
@@ -52,4 +52,4 @@ Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 
 ## Done when
 - Every subgoal has a test and a done criterion.
-- progress_record.md exists with the checklist.
+- 4_progress_record.md exists with the checklist.

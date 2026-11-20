@@ -9,7 +9,7 @@ jm_claude/
     ├── coding-guidelines/   # 코딩 원칙
     ├── prob-describe/       # 1단계: 문제 정의
     ├── plan/                # 2단계: 계획 + test 계획
-    ├── data-audit/          # 3단계: 데이터 함정 검사
+    ├── data-audit/          # 3단계: 데이터 오류 검사
     ├── progress-record/     # 4단계: 실행 기록
     └── result/              # 5단계: 최종 결과
 ```
@@ -85,11 +85,11 @@ codex
 
 ```
 <프로젝트>/docs/
-├── prob_describe.md
-├── plan.md
-├── data_audit.md
-├── progress_record.md
-└── result.md
+├── 1_prob_describe.md
+├── 2_plan.md
+├── 3_data_audit.md
+├── 4_progress_record.md
+└── 5_result.md
 ```
 
 ## 업데이트

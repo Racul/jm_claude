@@ -1,6 +1,6 @@
 ---
 name: prob-describe
-description: Stage 1. Write docs/prob_describe.md to understand the task before planning. Use at the start of a new task, before any plan or code.
+description: Stage 1. Write docs/1_prob_describe.md to understand the task before planning. Use at the start of a new task, before any plan or code.
 ---
 
 # Problem Description
@@ -10,7 +10,7 @@ Understand the problem fully before planning. Make hidden assumptions visible.
 
 ## Steps
 1. Read the task statement and list the given files. Look at data only with `head`, shape, and dtypes.
-2. Write `docs/prob_describe.md` with the sections below (in Korean).
+2. Write `docs/1_prob_describe.md` with the sections below (in Korean).
 3. If anything is unclear, list it under open questions and ask the user before stage 2.
 
 ## Template

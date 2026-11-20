@@ -1,12 +1,12 @@
 ---
 name: data-audit
-description: Stage 3. Find and fix hidden traps (errors) in the input data, and record them in docs/data_audit.md. Use before any modeling or analysis, and whenever new data is loaded or joined.
+description: Stage 3. Find and fix errors in the input data, and record them in docs/3_data_audit.md. Use before any modeling or analysis, and whenever new data is loaded or joined.
 ---
 
 # Data Audit
 
 ## Goal
-The data contains hidden traps. Find every one, fix it, and prove both with numbers.
+The data may contain errors. Find every one, fix it, and prove both with numbers.
 
 ## Rules
 - Do this BEFORE any modeling or analysis.
@@ -27,9 +27,9 @@ The data contains hidden traps. Find every one, fix it, and prove both with numb
 
 ## Steps
 1. Run every checklist item. Record the result even if no issue is found.
-2. For each trap found, decide the fix (remove / impute / flag / convert) and give the reason.
+2. For each error found, decide the fix (remove / impute / flag / convert) and give the reason.
 3. Apply the fix in code. Re-run the checks to confirm.
-4. Write `docs/data_audit.md` (in Korean).
+4. Write `docs/3_data_audit.md` (in Korean).
 
 ## Template
 ```markdown
@@ -39,8 +39,8 @@ The data contains hidden traps. Find every one, fix it, and prove both with numb
 | # | 검사 항목 | 결과 | 문제 여부 |
 |---|---|---|---|
 
-## 발견한 함정
-### 함정 1: <이름>
+## 발견한 에러
+### 에러 1: <이름>
 - 발견: 어떤 검사로, 어떤 값이 (예: age 컬럼에 -1 이 312건)
 - 영향: 그대로 두면 어떤 문제가 생기는가
 - 처리 결정: 제거 / 대체 / flag / 변환, 그리고 이유
@@ -53,5 +53,5 @@ The data contains hidden traps. Find every one, fix it, and prove both with numb
 
 ## Done when
 - All checklist items are run and recorded.
-- Every trap has found / impact / fix / before-after / verification.
+- Every error has found / impact / fix / before-after / verification.
 - Data tests pass on the cleaned data.

@@ -1,18 +1,18 @@
 ---
 name: progress-record
-description: Stage 4. Execute subgoals in order and log everything in docs/progress_record.md, including trial and error, plan changes, and AI usage. Use during all execution work.
+description: Stage 4. Execute subgoals in order and log everything in docs/4_progress_record.md, including trial and error, plan changes, and AI usage. Use during all execution work.
 ---
 
 # Progress Record
 
 ## Goal
-Anyone can reproduce the whole process by reading progress_record.md alone.
+Anyone can reproduce the whole process by reading 4_progress_record.md alone.
 
 ## Rules
-- Do subgoals in plan.md order.
+- Do subgoals in 2_plan.md order.
 - Mark a task `[v]` only after its test passes. Never mark it before.
 - Log failures and dead ends too, not only successes.
-- If the plan turns out wrong, do not edit plan.md. Add a "계획 변경" entry with the reason.
+- If the plan turns out wrong, do not edit 2_plan.md. Add a "계획 변경" entry with the reason.
 - Log after every subgoal, not at the end.
 
 ## Steps (per subgoal)
