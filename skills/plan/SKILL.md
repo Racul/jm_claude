@@ -14,6 +14,8 @@ Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 - The first subgoal is always the data audit (see `skills/data-audit`).
 - Every subgoal must have a test that proves it works.
 - List every file to add or change in a table, with the subgoal and purpose.
+- Map every requirement in the task to a subgoal. No requirement may be dropped or excluded without a written reason.
+- Write an estimated time for each subgoal.
 
 ## Steps
 1. Read `docs/1_prob_describe.md`.
@@ -28,17 +30,24 @@ Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 ## 최종 목표
 - 1_prob_describe.md 의 목표와 성공 기준
 
+## 요구사항 대응표
+| # | 요구사항 (문제 원문 기준) | 담당 subgoal | 비고 |
+|---|---|---|---|
+| R1 | | 2 | |
+
 ## Subgoals
 ### 1. 데이터 무결성 검증
 - 할 일: data_audit 체크리스트 수행
 - test: schema, 결측, 중복, 범위 검사가 통과하는가
 - 완료 기준:
+- 예상 소요시간:
 
 ### 2. <subgoal 이름>
 - 할 일:
 - 입력 / 출력:
 - test: 무엇을 어떻게 확인하는가
 - 완료 기준:
+- 예상 소요시간:
 
 ...
 
@@ -59,6 +68,7 @@ Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 ```
 
 ## Done when
-- Every subgoal has a test and a done criterion.
+- Every subgoal has a test, a done criterion, and an estimated time.
+- Every requirement is mapped to a subgoal (none missing).
 - The file change table lists every file to add or change.
 - 4_progress_record.md exists with the checklist.
