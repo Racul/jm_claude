@@ -13,6 +13,7 @@ Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 - Results and changes go to 4_progress_record.md or 5_result.md, never 2_plan.md.
 - The first subgoal is always the data audit (see `skills/data-audit`).
 - Every subgoal must have a test that proves it works.
+- List every file to add or change in a table, with the subgoal and purpose.
 
 ## Steps
 1. Read `docs/1_prob_describe.md`.
@@ -41,6 +42,13 @@ Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 
 ...
 
+## 파일 변경 계획
+| 파일 | 추가 / 변경 | 관련 subgoal | 내용 |
+|---|---|---|---|
+| `src/load_data.py` | 추가 | 1 | 데이터 로드 및 검증 |
+| `tests/test_data.py` | 추가 | 1 | 데이터 무결성 test |
+| `<기존 파일>` | 변경 | 2 | 무엇을 왜 바꾸는가 |
+
 ## Test 계획
 - 데이터 test: 입력 데이터 무결성
 - subgoal test: 각 단계 출력의 shape, 범위, 예상값
@@ -52,4 +60,5 @@ Split the final goal into small, verifiable subgoals. Every subgoal has a test.
 
 ## Done when
 - Every subgoal has a test and a done criterion.
+- The file change table lists every file to add or change.
 - 4_progress_record.md exists with the checklist.
